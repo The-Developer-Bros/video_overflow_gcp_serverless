@@ -1,0 +1,26 @@
+.navbar-inverse .navbar-nav > li > a {
+  color: white !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  text-decoration: underline;
+}
+
+.navbar-collapse ul li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-collapse ul li a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 40px;
+}
+
+.navbar-inverse {
+  background-color: #3a1b37;
+}
