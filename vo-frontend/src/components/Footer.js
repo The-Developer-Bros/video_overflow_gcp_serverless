@@ -9,7 +9,9 @@ function Footer() {
 
     return (
 
-        <footer className="bg-dark text-center text-white fixed-bottom" style={{ position: "relative", bottom: "-100px" }}>
+        <footer className="bg-dark text-center text-white fixed-bottom"
+            // style={{ position: "relative", bottom: "-100px" }}
+        >
             {/* <!-- Grid container --> */}
 
 
