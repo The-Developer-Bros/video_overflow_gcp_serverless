@@ -4,13 +4,12 @@ function Navbar() {
 
     let styleBody = {
         minHeight: '100vh',
-        maxWidth:'400px'
     }
 
     return (
         <div style={styleBody}>
 
-            <div className='container my-3 py-3'>
+            <div className='container' style={{paddingTop:"100px"}}>
                 <p>
                     Mohammed Aamir Hussain Khan (pronounced [ˈaːmɪr xaːn]; born 14 March 1965) is an Indian actor, singer, director, filmmaker, and television talk show host. Through his career spanning over 30 years in Hindi films, Khan has established himself as one of the most popular and influential actors of Indian cinema.[2][3] He has a large global following, especially in India and China, and has been described by Newsweek as "the biggest movie star"[4][5] in the world.[6][7][8] Khan is the recipient of numerous awards, including nine Filmfare Awards, four National Film Awards, and an AACTA Award. He was honoured by the Government of India with the Padma Shri in 2003 and the Padma Bhushan in 2010,[9] and received an honorary title from the Government of China in 2017.[10] For years, he has been regularly listed one among The 500 Most Influential Muslims of the world.[11][12]
 
