@@ -3,15 +3,16 @@
 
 
 export const LogoutBtn = (props) => {
-    return <div className="authentication">
+    return (<div className="authentication">
         <button >Logout </button>
-    </div>
+    </div>)
 }
 
 export const LoginBtn = (props) => {
-    return <a href='http://localhost:8888'>
-        <button>Login</button>
-    </a>
+    return (
+        <a href='http://localhost:8888'>
+            <button>Login</button>
+        </a>)
 }
 
 export const AuthBtn = (props) => {
