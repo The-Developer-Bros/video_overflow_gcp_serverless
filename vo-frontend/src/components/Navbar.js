@@ -16,7 +16,10 @@ function Navbar() {
             }}
             id="custom-nav">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/#">Navbar scroll</a>
+                <a className="navbar-brand" href="/#">
+                    {/* <img src={'../assets/images/vo-logo.png'} /> */}
+                    <img src={require('../assets/images/vo-logo.png')} id="navbarLogo" />
+                </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
