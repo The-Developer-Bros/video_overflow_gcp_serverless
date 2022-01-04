@@ -24,3 +24,22 @@
 .navbar-inverse {
   background-color: #3a1b37;
 }
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+#custom-nav {
+  -webkit-box-shadow: 2px 2px 2px #2e78ee;
+  -moz-box-shadow: 2px 2px 2px #2e78ee;
+  box-shadow: 2px 2px 2px #2e78ee;
+  z-index: 999;
+}
+
+.form-control {
+  background-color: #aaaaaa;
+  width: 800px;
+  height: 35px;
+}

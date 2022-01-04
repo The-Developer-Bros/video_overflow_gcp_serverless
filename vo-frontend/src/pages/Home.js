@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navbar() {
+function Home() {
 
     let styleBody = {
         minHeight: '100vh',
@@ -29,4 +29,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Home
