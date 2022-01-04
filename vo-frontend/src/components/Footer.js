@@ -10,12 +10,9 @@ function Footer() {
     return (
 
         <footer className="bg-dark text-center text-white fixed-bottom"
-            // style={{ position: "relative", bottom: "-100px" }}
+        // style={{ position: "relative", bottom: "-100px" }}
         >
             {/* <!-- Grid container --> */}
-
-
-
             <div className="container">
                 <div className="row" style={{ paddingTop: "20px" }} >
                     <div className="col">

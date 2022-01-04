@@ -1,10 +1,7 @@
 import React from 'react'
+import "../styles/Contact.css"
 
 function Contact() {
-
-    let styleBody = {
-        minHeight: '100vh',
-    }
 
     return (
         <div className="container contact" style="height: 900px;">
