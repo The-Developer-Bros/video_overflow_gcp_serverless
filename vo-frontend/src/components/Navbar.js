@@ -25,11 +25,11 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarScroll">
                     <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                        style={{ "bs-scroll-height": "100px" }}
+                        // style={{ "bs-scroll-height": "100px" }}
                     >
                         <li className="nav-item">
                             {/* <a className="nav-link active" aria-current="page" href="/home">Home</a> */}
-                            <Link to="/home" className="nav-link active" >Home</Link>
+                            <Link to="/" className="nav-link active" >Home</Link>
                         </li>
 
                         <li className="nav-item">

@@ -4,6 +4,7 @@ import "../styles/Contact.css"
 function Contact() {
 
     return (
+
         <div className="container contact" style="height: 900px;">
             <div className="row">
                 <div className="col-md-3">

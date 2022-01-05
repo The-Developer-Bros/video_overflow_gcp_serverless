@@ -17,15 +17,17 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/signup" element={<Signup />} />
-          <Route exact path="/profile" element={<Profile />} />
-          <Route exact path="/search" element={<Search />} />
-        </Routes>
+        <div style={{ minHeight: '100vh' }}>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/login" element={<Login />} />
+            <Route exact path="/signup" element={<Signup />} />
+            <Route exact path="/profile" element={<Profile />} />
+            <Route exact path="/search" element={<Search />} />
+          </Routes>
+        </div>
         <Footer />
       </Router>
     </div>
