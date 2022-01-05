@@ -17,11 +17,11 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <div style={{ minHeight: '100vh' }}>
+        <div style={{ minHeight: '100vh',paddingTop:"100px" }} className='container'>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />
-            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/contact" element={<Contact/>} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/profile" element={<Profile />} />

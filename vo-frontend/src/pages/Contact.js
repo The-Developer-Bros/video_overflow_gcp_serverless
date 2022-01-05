@@ -5,7 +5,7 @@ function Contact() {
 
     return (
 
-        <div className="container contact" style="height: 900px;">
+        <div className="container contact" style={{height: "900px"}}>
             <div className="row">
                 <div className="col-md-3">
                     <div className="contact-info">
@@ -42,12 +42,12 @@ function Contact() {
                         </div>
                         <div className="form-group">
                             <div className="col-sm-offset-2 col-sm-10">
-                                <button type="submit" className="btn btn-success" id="submit_btn">Submit</button>
+                                <button type="submit" className="btn btn-success my-3" id="submit_btn">Submit</button>
                             </div>
                         </div>
                         <div className="form-group">
                             <div className="col-sm-offset-2 col-sm-10">
-                                <p id="msg_shown_on_screen" style="font: bolder;"></p>
+                                <p id="msg_shown_on_screen" style={{font: "bolder"}}></p>
                             </div>
                         </div>
                     </div>
