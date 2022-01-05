@@ -14,7 +14,7 @@ function Contact() {
                         <h4>We would love to contact with you!</h4>
                     </div>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 bg-primary">
                     <div className="contact-form">
                         <div className="form-group">
                             <label className="control-label col-sm-2" for="name">Name:</label>
